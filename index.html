@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>UNL Food Delivery</title>
+</head>
+
+<body>
+
+
+    <div class="center">
+    <a id="loadMessage" href="sms:4023672113&body=I'd%20like%20to%20have%20my%20food%20delivered!">
+        <h1>UNL<span>FD</span></h1>
+    </a>
+    <h3>Open in messages to begin order ☝️</h3>
+    </div>
+</body>
+<script>
+    window.addEventListener("load", () => {document.getElementById("loadMessage").click()})
+</script>
+
+</html>
