@@ -11,21 +11,29 @@ body {
   font-family: Inter;
 }
 
-span{
-    color: #22DD27;
+span {
+  color: #22dd27;
 }
 
-h1{
-    font-size: 60pt;
-    color: white;
+a {
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+h1 {
+  font-size: 60pt;
+  color: white;
 }
 
-h3{
-    text-align: center;
-    color: white;
-    margin-top: 25vh;
+.primary {
+  color: white;
+  background-color: rgb(26, 175, 31);
+  padding: 2vh;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  margin-top: 15vh;
 }
